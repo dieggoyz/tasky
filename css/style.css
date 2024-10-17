@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+}
+
+h1, h2, input {
+  margin: 0 0 1rem;
+}
+
+ol {
+  padding: 0 1rem;
+}
+
+ol li button {
+  margin-left: 0.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
