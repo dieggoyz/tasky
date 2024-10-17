@@ -8,7 +8,7 @@ body {
   padding: 1rem;
 }
 
-h1, h2, input {
+h1, h2, input, ol {
   margin: 0 0 1rem;
 }
 
@@ -18,6 +18,24 @@ ol {
 
 ol li button {
   margin-left: 0.5rem;
+}
+
+.btn {
+  appearance: none;
+  background-color: buttonface;
+  border: 1px outset buttonborder;
+  border-radius: 2px;
+  color: buttontext;
+  cursor: pointer;
+  font: 13.3333px sans-serif;
+  line-height: normal;
+  outline: none;
+  padding: 2px 5px;
+  text-rendering: auto;
+}
+
+.import-input {
+  display: none;
 }
 
 .completed {

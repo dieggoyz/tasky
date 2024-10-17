@@ -11,11 +11,16 @@
 			<h1>To do's list</h1>
 			<div>
 				<input type="text" id="taskInput" placeholder="Type your task here" />
-				<button onclick="addTask()">Add</button>
+				<button onclick="addTask()" class="btn">Add</button>
 			</div>
 			<div>
 				<h2>Tasks:</h2>
 				<ol id="taskList"></ol>
+			</div>
+			<div>
+				<button id="exportBtn" class="btn">Export</button>
+				<label for="importInput" id="importLabel" class="btn">Import</label>
+				<input type="file" name="importInput" id="importInput" accept=".json" class="import-input" />
 			</div>
 		</div>
 		<script src="js/app.js"></script>
