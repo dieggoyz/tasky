@@ -1,44 +1,39 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  padding: 1rem;
+	padding: 1rem;
 }
 
-h1, h2, input, ol {
-  margin: 0 0 1rem;
+h1,
+h2,
+input,
+ol {
+	margin: 0 0 1rem;
 }
 
 ol {
-  padding: 0 1rem;
+	padding: 0 1rem;
 }
 
 ol li button {
-  margin-left: 0.5rem;
+	margin-left: 0.5rem;
 }
 
-.btn {
-  appearance: none;
-  background-color: buttonface;
-  border: 1px outset buttonborder;
-  border-radius: 2px;
-  color: buttontext;
-  cursor: pointer;
-  font: 13.3333px sans-serif;
-  line-height: normal;
-  outline: none;
-  padding: 2px 5px;
-  text-rendering: auto;
-}
-
-.import-input {
-  display: none;
+button,
+.button {
+	appearance: none;
+	background-color: buttonface;
+	border: 1px outset buttonborder;
+	border-radius: 2px;
+	color: buttontext;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 13.3333px;
+	line-height: normal;
+	outline: none;
+	padding: 2px 5px;
+	text-rendering: auto;
 }
 
 .completed {
-  text-decoration: line-through;
-  color: gray;
+	text-decoration: line-through;
+	color: gray;
 }
