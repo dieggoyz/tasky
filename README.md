@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/assets/icon.png" alt="tasky" height="100" />
+  <img src="/assets/favicon.png" alt="tasky" height="100" />
   <p>
     a minimalistic to-do list app powered by local storage
   </p>
